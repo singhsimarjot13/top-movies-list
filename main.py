@@ -7,7 +7,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
-api_key='fce3285aa5033c2d12fdded27da1f97f'
+api_key='your key'
 url = "https://api.themoviedb.org/3/search/movie"
 
 '''
@@ -26,7 +26,7 @@ class Base(DeclarativeBase):
     pass
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'your keyf'
 Bootstrap5(app)
 
 # CREATE DB
